@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Security Check Automation Suite" verbose="1" parallel="false">
+
+<test name="Forget Password Suite">
+    <classes>
+        <class name="test_Cases.ForgetPasswordSecurityTest"/>
+    </classes>
+</test>
+
+<test name="Pickup Suite">
+    <classes>
+        <class name="test_Cases.PickupSecurityTest"/>
+    </classes>
+</test>
+
+<test name="Bank Info Suite">
+    <classes>
+        <class name="test_Cases.BankInfoSecurityTest"/>
+    </classes>
+</test>
+
+</suite>
